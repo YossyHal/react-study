@@ -18,9 +18,11 @@ npm start
 
 - https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages
 - https://docs.github.com/ja/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+- https://github.com/gitname/react-gh-pages
+- https://create-react-app.dev/docs/deployment/
 
 ```sh
 cd my-app
-npm run build
-git subtree push --prefix build/ origin github-pages
+npm install gh-pages --save-dev
+npm run deploy
 ```
